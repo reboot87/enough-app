@@ -1,0 +1,21 @@
+{
+  "name": "enough",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Enough — 日常决策伴侣。零依赖单文件 Web 应用。",
+  "dependencies": {
+    "preact": "^10.26.4",
+    "htm": "^3.1.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.12"
+  },
+  "scripts": {
+    "dev": "node build.js --watch",
+    "build": "node build.js",
+    "serve": "node server.js",
+    "test": "node test-model.mjs",
+    "build:test": "node build-test.js"
+  }
+}
